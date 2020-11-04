@@ -22,7 +22,13 @@ public class Cifradocriptobinario {
         Scanner mensaje = new Scanner(System.in); 
         String palabra = mensaje.nextLine();
         
-              
+              for(int i =0; i<palabra.length();i++){
+              char characterValue = palabra.charAt(i);
+              int asciiValue = (int) characterValue;
+               System.out.println("NUMERO_ASCII " + asciiValue );
+                 
+                             
+              }
                 
     }
     
