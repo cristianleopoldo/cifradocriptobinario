@@ -80,11 +80,15 @@ public class Cifradocriptobinario {
 } 
         System.out.println();
         System.out.println(contador);
+    
+  System.out.println("Escribir mensaje a desifrar");
+        Scanner mensaj = new Scanner(System.in); 
+        String palabr = mensaj.nextLine();
+    }
+     String W = "00000000";  
     }
 
-     
-  
-}
+
 
  
                              
